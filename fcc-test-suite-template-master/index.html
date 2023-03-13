@@ -9,45 +9,52 @@
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <main>
-      <div class="navbar">
+      <div class="navbar" id="navbar">
         <ul class="nav-content">
-          <li class="topic">About</li>
-          <li>Work</li>
-          <li>Contact</li>
+          <li class="topic"><a href="#welcome-section"></a>About</li>
+          <li class="topic"><a href="#projects">Work</a></li>
+          <li class="topic"><a href="#projects"></a>Contact</li>
         </ul>
       </div>
-      <div class="welcome">
+      <!-- <div class="welcome"> -->
         <!-- welcome page here  -->
-      </div>
+        <section id="welcome-section" class="welcome-section">
+      		<h1>Hey its Paul <br> and Abhishek</h1>
+      		<p>The web developer team</p>
+    	</section>
+      <!-- </div> -->
 
       <!-- Projects page -->
-      <div class="projects">
+      <div class="projects" id = "projects">
         <h1 class="title">These are some of projects I've done</h1>
         <hr class="divider" />
         <br />
         <div class="box-container">
-          <div class="box">
+
+          <div class="project-tile">
+            <a href="https://ebk.go.ke/"></a>
             <img class="image" src="assets/law-firm.png" />
             <div class="description">Law Firm Website [Abhishek]</div>
+            </a>
           </div>
-          <div class="box">
+          <div class="project-tile">
             <img class="image" src="assets/yt-clone.png" />
             <div class="description">Youtube Clone [Abhishek]</div>
           </div>
-          <div class="box">
+          <div class="project-tile">
             <img class="image" src="assets/pdf-editor.png" />
             <div class="description">PDF Editing Website [Abhishek]</div>
           </div>
 
-          <div class="box">
+          <div class="project-tile">
             <img class="image" src="assets/law-firm.png" />
             <div class="description">Project Name [Paul]</div>
           </div>
-          <div class="box">
+          <div class="project-tile">
             <img class="image" src="assets/law-firm.png" />
             <div class="description">Project Name [Paul]</div>
           </div>
-          <div class="box">
+          <div class="project-tile">
             <img class="image" src="assets/law-firm.png" />
             <div class="description">Project Name [Paul]</div>
           </div>
